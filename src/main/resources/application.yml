@@ -3,11 +3,6 @@ spring:
     name: saml-oauth-example
   main:
     allow-bean-definition-overriding: true
-  jpa:
-    generate-ddl: false
-    hibernate:
-      ddl-auto: validate
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
   mvc:
     hiddenmethod:
       filter:
@@ -29,8 +24,3 @@ spring:
 
 server:
   port: 7001
-
-logging:
-  level:
-    org.springframework.web: INFO
-    org.hibernate: ERROR
