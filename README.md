@@ -1,13 +1,13 @@
-##SAML2.0 combines OAuth2.0 demo project.
+## SAML2.0 combines OAuth2.0 demo project.
 
-##Demo item Log in to OKTA using SAML2.0, Generate OAuth token after successful.
+## Demo item Log in to OKTA using SAML2.0, Generate OAuth token after successful.
 
-##Config
+## Config
 ### resource
 - key.jks
 - /saml-certificate/okta.crt
 
-###application config 
+### application config 
     okta-saml:
         identityprovider:
           entity-id: you-entity-id
@@ -16,7 +16,7 @@
           singlesignon.url: you-singlesignon-url
           singlesignon.sign-request: false
 
-##Core code
+## Core code
 - WebSecurityConfig
 ```java
     @Override
